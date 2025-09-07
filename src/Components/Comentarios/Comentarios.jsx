@@ -9,11 +9,11 @@ const Comentarios=()=>{
           <div className="flex-1">
             <div className="relative max-w-md">
               
-              <div className="w-80 h-80 bg-[#FDD65B] overflow-hidden" style={{ borderRadius: '50% 50% 50% 50% / 60% 60% 40% 40%' }}>
+              <div className="w-80 h-80 " style={{ borderRadius: '50% 50% 50% 50% / 60% 60% 40% 40%' }}>
                
                 <div className="w-full h-full flex items-center justify-center p-6">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                    src="../src/img/mustafa_fondo_amarillo.png" 
                     alt="Mustafa Kamal - smiling man with glasses and bow tie"
                     className="w-64 h-64 rounded-full object-cover shadow-lg"
                   />

@@ -5,11 +5,11 @@ import './App.css'
 import { Estadisticas } from './Components/Estadistica/Estadisticas'
 import { Noticias } from './Components/Noticias/Noticias'
 
-import { AboutUs } from './components/AboutUs/AboutUs'
+import { AboutUs } from './Components/AboutUs/AboutUs'
 
-import { Comentarios } from './components/Comentarios/Comentarios'
-import { Footer2 } from './components/Footer2/Footer2'
-import { Footer } from './components/Footer/Footer'
+import { Comentarios } from './Components/Comentarios/Comentarios'
+import { Footer2 } from './Components/Footer2/Footer2'
+import { Footer } from './Components/Footer/Footer'
 import { OurTeam } from './Components/OurTeam/OurTeam'
 
 
@@ -85,7 +85,7 @@ function App() {
                     />
                     <text className="text-xs font-medium fill-gray-600 font-bogart" style={{ fontSize: '10px', letterSpacing: '3px' }}>
                       <textPath href="#circle-path" startOffset="0%">
-                        LEARN ABOUT US
+                        Learn about us through this video
                       </textPath>
                     </text>
                   </svg>
@@ -109,7 +109,7 @@ function App() {
           <div className="flex-1 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="../src/img/imagenpyn.png"
+                src="../src/img/1.jpg"
                 alt="Adult helping child with soccer ball"
                 className="w-full  object-cover h-full"
               />

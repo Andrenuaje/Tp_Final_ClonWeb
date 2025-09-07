@@ -4,7 +4,7 @@ const Header = () => {
      
       <nav className="flex justify-between items-center p-6 max-w-7xl mx-auto font-bogart">
         <div className="text-2xl font-bold text-gray-800">
-          Ta:
+          
         </div>
         <div className="flex space-x-8">
           <a href="#" className="text-gray-800 hover:text-gray-600 transition-colors">About Us</a>

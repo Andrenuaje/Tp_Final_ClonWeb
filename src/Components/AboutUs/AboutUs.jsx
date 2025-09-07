@@ -11,7 +11,7 @@ const AboutUs = () => {
               
               <div className="w-96 h-96 rounded-full overflow-hidden shadow-xl bg-amber-100">
                 <img 
-                  src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src="../src/img/voluntarios.jpg" 
                   alt="Team members - man and woman smiling"
                   className="w-full h-full object-cover"
                 />
