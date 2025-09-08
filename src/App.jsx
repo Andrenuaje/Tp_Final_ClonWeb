@@ -15,12 +15,14 @@ import { OurTeam } from './Components/OurTeam/OurTeam'
 
 
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="relative min-h-screen">
+    
+    <div className="relative min-h-screen">
       
       <div className="absolute inset-0 flex">
         <div className="w-1/2 bg-[#F9F4E8]"></div>
@@ -106,12 +108,12 @@ function App() {
           </div>
 
           
-          <div className="flex-1 relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+          <div className="flex-1 relative ">
+            <div className="relative  shadow-2xl ">
               <img 
                 src="../src/img/1.jpg"
-                alt="Adult helping child with soccer ball"
-                className="w-full  object-cover h-full"
+                alt=""
+                className=" w-full  object-cover h-full  "
               />
             </div>
           </div>

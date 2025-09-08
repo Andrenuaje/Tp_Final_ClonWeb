@@ -7,7 +7,7 @@ const Footer = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                     
-                    {/* Newsletter Column */}
+                   
                     <div>
                         <h3 className="font-bold text-gray-800 text-lg mb-6">Newsletter</h3>
                         <p className="text-gray-600 text-sm mb-6 leading-relaxed">
@@ -19,13 +19,13 @@ const Footer = () => {
                                 placeholder="Email" 
                                 className="flex-1 border border-gray-300 px-4 py-3 rounded-l text-sm focus:outline-none focus:border-teal-500 bg-white"
                             />
-                            <button className="bg-teal-600 text-white px-6 py-3 rounded-r text-sm font-semibold hover:bg-teal-700 transition-colors">
+                            <button className="bg-[#00715D] text-white px-6 py-3 rounded-r text-sm font-semibold hover:bg-teal-700 transition-colors">
                                 Subscribe
                             </button>
                         </div>
                     </div>
 
-                    {/* Navigation Column */}
+                   
                     <div>
                         <h3 className="font-bold text-gray-800 text-lg mb-6">Navigation</h3>
                         <div className="space-y-3">
@@ -35,7 +35,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* About Us Column */}
+                    
                     <div>
                         <h3 className="font-bold text-gray-800 text-lg mb-6">About Us</h3>
                         <div className="space-y-3">
@@ -45,7 +45,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Help Column */}
+                    
                     <div>
                         <h3 className="font-bold text-gray-800 text-lg mb-6">Help</h3>
                         <div className="space-y-3">
@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Bottom Section */}
+                
                 <div className="border-t border-gray-300 pt-8">
                     <div className="flex justify-between items-center text-sm text-gray-600">
                         <p>Designed By Tanim Khan</p>
