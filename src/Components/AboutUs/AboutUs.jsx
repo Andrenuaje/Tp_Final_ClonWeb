@@ -9,7 +9,7 @@ const AboutUs = () => {
           <div className="flex-1 flex justify-center">
             <div className="relative">
               
-              <div className="w-96 h-96 rounded-full overflow-hidden shadow-xl bg-amber-100">
+              <div className="w-96 h-96 rounded-t-full overflow-hidden shadow-xl bg-[#F9F4E8]rounded-b-lg ">
                 <img 
                   src="../src/img/voluntarios.jpg" 
                   alt="Team members - man and woman smiling"

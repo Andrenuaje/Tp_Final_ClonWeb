@@ -10,8 +10,8 @@ const Comentarios=()=>{
             <div className="relative max-w-md">
               
               <div className="w-80 h-80 " style={{ borderRadius: '50% 50% 50% 50% / 60% 60% 40% 40%' }}>
-               
-                <div className="w-full h-full flex items-center justify-center p-6">
+               <div className='bg-[#FDD65B] rounded-b-full'>
+                <div className="w-full h-full  flex items-center justify-center p-6">
                   <img 
                     src="../src/img/mustafa_fondo_amarillo.png" 
                     alt="Mustafa Kamal - smiling man with glasses and bow tie"
@@ -19,9 +19,10 @@ const Comentarios=()=>{
                   />
                 </div>
               </div>
+             </div>
               
              
-              <div className="absolute top-4 left-4 bg-[#00715D] text-white px-3 py-2 rounded-lg flex items-center space-x-1 shadow-lg font-bogart">
+              <div className="absolute top-0  bg-[#00715D] text-white px-3 py-2 rounded-b-full  font-bogart">
                 <div className="w-4 h-4 fill-current" />
                 <span className="font-semibold">⭐5.0</span>
               </div>
