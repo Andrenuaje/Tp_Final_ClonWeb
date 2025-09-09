@@ -1,4 +1,4 @@
-
+import { useState } from 'react'
 import './App.css'
 import { Estadisticas } from './Components/Estadistica/Estadisticas'
 import { Noticias } from './Components/Noticias/Noticias'
@@ -37,7 +37,7 @@ function App() {
         <nav className="flex justify-between items-center p-6 max-w-7xl mx-auto font-bogart">
           <div className="flex items-center">
             <img 
-              src="../public/img/logo.png"
+              src="../img/logo.png"
               alt="Ta: Logo" 
               className="h-20 w-auto"
             />
