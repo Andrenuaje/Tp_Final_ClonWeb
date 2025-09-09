@@ -9,17 +9,16 @@ const Comentarios=()=>{
           <div className="flex-1">
             <div className="relative max-w-md">
               
-              <div className="w-80 h-80 " style={{ borderRadius: '50% 50% 50% 50% / 60% 60% 40% 40%' }}>
-               <div className='bg-[#FDD65B] rounded-b-full'>
-                <div className="w-full h-full  flex items-center justify-center p-6">
-                  <img 
-                    src="../src/img/mustafa_fondo_amarillo.png" 
-                    alt="Mustafa Kamal - smiling man with glasses and bow tie"
-                    className="w-64 h-64 rounded-full object-cover shadow-lg"
-                  />
-                </div>
-              </div>
-             </div>
+               <div className="w-80 h-80" style={{ borderRadius: '50% 50% 50% 50% / 60% 60% 40% 40%' }}>
+                 <div className="bg-[#FFE155] rounded-b-full w-full h-full flex items-end justify-center">
+                     <img 
+                        src="../src/img/mustafa_fondo_amarillo.png" 
+                        alt="Mustafa Kamal - smiling man with glasses and bow tie"
+                        className="w-64 h-64 rounded-full object-cover mb-0"
+                      />
+                   </div>
+               </div>
+
               
              
               <div className="absolute top-0  bg-[#00715D] text-white px-3 py-2 rounded-b-full  font-bogart">

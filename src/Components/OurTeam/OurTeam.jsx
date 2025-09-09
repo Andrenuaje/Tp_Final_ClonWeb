@@ -1,49 +1,44 @@
+
 import './OurTeam'
 const teamMembers = [
     {
         name: 'Lily gomez',
         role: 'Founder',
-        image: '../src/img/Lily.png',
-        mainBg: 'bg-yellow-100',
-        arcBg: 'bg-yellow-300',
+        image: '../src/img/Lyli.png',
+       
     },
     {
         name: 'Dm Lincoln',
         role: 'Co-Founder',
-        image: '../src/img/dm_uno.jpg',
-        mainBg: 'bg-emerald-700',
-        arcBg: 'bg-emerald-600',
+        image: '../src/img/DmLincon.png',
+       
     },
     {
         name: 'Serena Mei',
         role: 'Manager',
-        image: '../src/img/Serena.jpg',
-        mainBg: 'bg-yellow-100',
-        arcBg: 'bg-yellow-300',
+        image: '../src/img/Serena.png',
+       
     },
     {
         name: 'Abdel Latif',
         role: 'Supervisor',
-        image: '../src/img/abdel_1.jpg',
-        mainBg: 'bg-emerald-700',
-        arcBg: 'bg-emerald-600',
+        image: '../src/img/AbdelL.png',
+       
     },
 ];
 
 
 const OurTeam = () => {
     return(
-           <section className="bg-yellow-50 py-20 font-bogart">
+           <section className="bg-[#F9F4E8] py-20 font-bogart">
             <div className="max-w-7xl mx-auto px-6 text-center">
                 <h2 className="text-5xl font-bold text-gray-800 mb-4">Our Team</h2>
                 <div className="w-16 h-1 bg-gray-800 mx-auto mb-16"></div>
                 <div className="flex flex-wrap justify-center gap-12">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="flex flex-col items-center text-center w-64">
-                            <div className={`relative w-40 h-40 rounded-full overflow-hidden mb-4 flex items-center justify-center shadow-lg`}>
-                                <div className={`absolute inset-0 rounded-full ${member.mainBg} z-0`}></div>
-                                <div className={`absolute w-[110%] h-[110%] rounded-full ${member.arcBg} z-0`} style={{ left: '-10%', top: '-5%' }}></div>
-                                <div className={`absolute w-[110%] h-[110%] rounded-full ${member.arcBg} z-0`} style={{ right: '-10%', top: '-5%' }}></div>
+                            <div className={`relative w-40 h-40 rounded-full overflow-hidden mb-4 flex items-center justify-center `}>
+                             
                                 <img
                                     src={member.image}
                                     alt={member.name}

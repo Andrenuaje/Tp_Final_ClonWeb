@@ -11,6 +11,7 @@ import { Comentarios } from './Components/Comentarios/Comentarios'
 import { Footer2 } from './Components/Footer2/Footer2'
 import { Footer } from './Components/Footer/Footer'
 import { OurTeam } from './Components/OurTeam/OurTeam'
+import CurvedArrow from './Components/Linea'
 
 
 
@@ -24,7 +25,7 @@ function App() {
     
     <div className="relative min-h-screen">
       
-      <div className="absolute inset-0 flex">
+      <div className="absolute inset-0 flex ">
         <div className="w-1/2 bg-[#F9F4E8]"></div>
         <div className="w-1/2 bg-gradient-to-br from-[#FDD65B] via-[#FDD65B] to-[#FDD65B]"></div>
       </div>
@@ -48,7 +49,7 @@ function App() {
         </nav>
 
         
-        <div className="flex items-center justify-between max-w-7xl mx-auto px-6 py-12">
+        <div className="flex items-center justify-between max-w-7xl mx-auto px-5py-12">
           
           <div className="flex-1 pr-12 font-bogart">
             <h1 className="text-6xl font-bold text-gray-800 leading-tight mb-8">
@@ -65,9 +66,11 @@ function App() {
 
             
             <div className="flex items-center space-x-6 mb-16">
-              <button className="bg-[#00715D] hover:bg-green-700 text-white px-8 py-3 rounded font-semibold transition-colors font-bogart">
+              <button className="bg-[#00715D] hover:bg-green-700 text-white px-8 py-3  font-semibold transition-colors font-bogart">
                 Donate Now
               </button>
+             
+             <CurvedArrow/>
               
               
             <button className='cursor-pointer flex items-center'>
@@ -108,12 +111,12 @@ function App() {
           </div>
 
           
-          <div className="flex-1 relative ">
-            <div className="relative  shadow-2xl ">
+          <div className="flex-1 relative pr-12 ">
+            <div className="relative  ">
               <img 
                 src="../src/img/1.jpg"
                 alt=""
-                className=" w-full  object-cover h-full  "
+                className=" w-full  object-cover h-full   "
               />
             </div>
           </div>
