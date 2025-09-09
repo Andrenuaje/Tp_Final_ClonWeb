@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import { Estadisticas } from './Components/Estadistica/Estadisticas'
 import { Noticias } from './Components/Noticias/Noticias'
