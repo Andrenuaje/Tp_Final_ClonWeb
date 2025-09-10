@@ -2,6 +2,8 @@
 
 Una página web moderna y responsiva para una organización benéfica, desarrollada con React + Vite. El sitio web presenta un diseño limpio y atractivo enfocado en promover las actividades caritativas y el apoyo comunitario.
 
+## Link a la pagina: https://tp-final-clon-ibt5cxqmm-andres-projects-c9df6017.vercel.app/
+
 ## 🌟 Características
 
 - **Diseño Moderno**: Interfaz limpia con combinación de colores cálidos (amarillo, verde, beige)
@@ -95,5 +97,5 @@ charity-website/
 └── package.json
 ```
 
-## Links:
+
 
