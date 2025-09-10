@@ -10,8 +10,7 @@ import { Footer2 } from './Components/Footer2/Footer2'
 import { Footer } from './Components/Footer/Footer'
 import { OurTeam } from './Components/OurTeam/OurTeam'
 import CurvedArrow from './Components/Linea'
-import logo from '../src/img/Logo/logo.png';
-import PadreyHijo from '../src/img/Logo/PadreyHijo.jpg';
+
 
 
 
@@ -40,7 +39,7 @@ function App() {
         <nav className="flex justify-between items-center p-6 max-w-7xl mx-auto font-bogart">
           <div className="flex items-center">
             <img 
-              src={logo}
+              src="/public/img/Logo/logo.png"
               alt="Ta: Logo" 
               className="h-20 w-auto"
             />
@@ -118,7 +117,7 @@ function App() {
           <div className="flex-1 relative pr-12 ">
             <div className="relative  ">
               <img 
-                src={PadreyHijo}
+                src="/public/img/Logo/imagen1.png"
                 alt=""
                 className=" w-full  object-cover h-full   "
               />
