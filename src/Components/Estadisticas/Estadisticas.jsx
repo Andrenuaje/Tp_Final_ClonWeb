@@ -1,32 +1,32 @@
 import './Estadisticas'
-import manocorazon from '../src/img/Estadisticas/manocorazon.jpg'
-import cajacorazon from '../src/img/Estadisticas/cajacorazon.jpg';
-import megafonocorazon from '../src/img/Estadisticas/megafonocorazon.jpg';
-import manopaz from '../src/img/Estadisticas/manopaz.jpg';
+import manocorazon from '../img/Estadisticas/manocorazon.jpg'
+import cajacorazon from '../img/Estadisticas/cajacorazon.jpg';
+import megafonocorazon from '../img/Estadisticas/megafonocorazon.jpg';
+import manopaz from '../img/Estadisticas/manopaz.jpg';
 
 
 const Estadisticas = () => {
     const stats = [
         {
-            image: {manocorazon}, 
+            image: manocorazon, 
             alt: "Donaciones recibidas",
             value: "985+",
             description: "Donation Received"
         },
         {
-            image: {cajacorazon}, 
+            image: cajacorazon, 
             alt: "Dinero donado",
             value: "$10 M",
             description: "Money Donated"
         },
         {
-            image: {megafonocorazon}, 
+            image: megafonocorazon, 
             alt: "Campañas activas",
             value: "12+",
             description: "Active Campaigns"
         },
         {
-            image: {manopaz}, 
+            image: manopaz, 
             alt: "Caridad en el año",
             value: "$60 M",
             description: "Charity in last Year"
