@@ -1,5 +1,5 @@
 import './AboutUs'
-import voluntarios from '../src/img/AboutUs/voluntarios.jpg';
+
 
 const AboutUs = () => {
       return(
@@ -12,7 +12,7 @@ const AboutUs = () => {
               
               <div className="w-96 h-96 rounded-t-full overflow-hidden shadow-xl bg-[#F9F4E8]rounded-b-lg ">
                 <img 
-                  src={voluntarios}
+                  src="/public/img/Logo/imagen1.png"
                   alt="Team members - man and woman smiling"
                   className="w-full h-full object-cover"
                 />
