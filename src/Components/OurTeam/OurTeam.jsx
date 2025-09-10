@@ -1,33 +1,30 @@
 
 import './OurTeam'
-import AbdelL from '../src/img/OurTeam/AbdelL.png';
-import DmLincon from '../src/img/OurTeam/DmLincon.png';
-import Lyli from '../src/img/OurTeam/Lyli.png';
-import Serena from '../src/img/OurTeam/Serena.png';
+
 
 const teamMembers = [
     {
         name: 'Lily gomez',
         role: 'Founder',
-        image: {Lyli},
+        image:"/public/img/OurTeam/Lyli.png" ,
        
     },
     {
         name: 'Dm Lincoln',
         role: 'Co-Founder',
-        image: {DmLincon},
+        image: "/public/img/OurTeam/DmLincon.png",
        
     },
     {
         name: 'Serena Mei',
         role: 'Manager',
-        image: {Serena},
+        image:"/public/img/OurTeam/Serena.png" ,
        
     },
     {
         name: 'Abdel Latif',
         role: 'Supervisor',
-        image: {AbdelL},
+        image:"/public/img/OurTeam/AbdelL.png" ,
        
     },
 ];
