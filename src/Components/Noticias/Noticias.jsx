@@ -1,9 +1,13 @@
 import './Noticias'
+import vacuna from '../src/img/Noticias/vacuna.jpg';
+import alimentos from '../src/img/Noticias/alimentos.jpg';
+import agua from '../src/img/Noticias/agua.jpg';
+
 
 const Noticias=() =>{
     return (
         <>
-            {/* SACAR LOS BORDES DESPUES */}
+           
             <section className="bg-orange-50 px-26 py-26 ">
                 <div className="max-w-7xl px-5 py-5">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center border-red-500">
@@ -18,21 +22,21 @@ const Noticias=() =>{
                                 achieve them effectively and innovatively.
                             </p>
 
-                            {/* IMAGEN VACUNA */}
+                           
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="space-y-2">
                                     <img
-                                        src="/src/img/vacuna.jpg"
+                                        src={vacuna}
                                         alt="Covid"
                                         className="w-64 h-64 object-cover bg-center"
                                     />
                                     <h3 className="font-semibold">Covid - 19</h3>
                                 </div>
 
-                                {/* IMAGEN COMIDA */}
+                               
                                 <div className="space-y-4">
                                     <img
-                                        src="/src/img/alimentos.jpg"
+                                        src={alimentos}
                                         alt="Food Bank"
                                         className="w-64 h-64 object-cover bg-center"
                                     />
@@ -44,7 +48,7 @@ const Noticias=() =>{
                         
                         <div className="w-full h-full">
                             <div className="bg-white w-full h-5/6">
-                                <img src="/src/img/agua.jpg" alt=""
+                                <img src={agua} alt=""
                                     className="w-full h-5/6 object-cover"
                                 />
                                 <h3 className="font-semibold p-5 text-left">Safe Water</h3>

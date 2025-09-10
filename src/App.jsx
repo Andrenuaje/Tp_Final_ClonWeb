@@ -11,6 +11,8 @@ import { Footer } from './Components/Footer/Footer'
 import { OurTeam } from './Components/OurTeam/OurTeam'
 import CurvedArrow from './Components/Linea'
 import logo from '../src/img/Logo/logo.png';
+import PadreyHijo from '../src/img/Logo/PadreyHijo.jpg';
+
 
 
 
@@ -116,7 +118,7 @@ function App() {
           <div className="flex-1 relative pr-12 ">
             <div className="relative  ">
               <img 
-                src="../src/img/1.jpg"
+                src={PadreyHijo}
                 alt=""
                 className=" w-full  object-cover h-full   "
               />

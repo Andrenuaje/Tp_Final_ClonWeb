@@ -4,7 +4,7 @@
 function CurvedArrow(){
     return(
         <svg
-            width="60"
+           width="60"
            height="40"
            viewBox="0 0 60 40"
            fill="none"

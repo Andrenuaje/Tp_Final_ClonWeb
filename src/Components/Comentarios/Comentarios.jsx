@@ -1,4 +1,5 @@
 import './Comentarios'
+import mustafa_fondo_amarillo from '../src/img/Comentarios/mustafa_fondo_amarillo.png';
 
 const Comentarios=()=>{
     return(
@@ -12,7 +13,7 @@ const Comentarios=()=>{
                <div className="w-80 h-80" style={{ borderRadius: '50% 50% 50% 50% / 60% 60% 40% 40%' }}>
                  <div className="bg-[#FFE155] rounded-b-full w-full h-full flex items-end justify-center">
                      <img 
-                        src="../src/img/mustafa_fondo_amarillo.png" 
+                        src={mustafa_fondo_amarillo}
                         alt="Mustafa Kamal - smiling man with glasses and bow tie"
                         className="w-64 h-64 rounded-full object-cover mb-0"
                       />
