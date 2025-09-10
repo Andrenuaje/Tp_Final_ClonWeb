@@ -4,6 +4,21 @@ Una página web moderna y responsiva para una organización benéfica, desarroll
 
 ## Link a la pagina: https://tp-final-clon-ibt5cxqmm-andres-projects-c9df6017.vercel.app/
 
+
+
+![Uno](https://github.com/user-attachments/assets/1595de70-a3a4-4a04-acc3-72c08edde309)
+
+![Dos](https://github.com/user-attachments/assets/f1a91dc6-279d-47cb-bf46-1f6d0b0f9fd7)
+
+![Tres](https://github.com/user-attachments/assets/4e80de41-2be6-472f-84cb-63c21daa9b27)
+
+![Cuatro](https://github.com/user-attachments/assets/ac69067d-0008-4f51-b882-64880bb0c92e)
+
+![Cinco](https://github.com/user-attachments/assets/19209509-9ffb-4261-9e7f-9025a7b09335)
+
+![Seis](https://github.com/user-attachments/assets/c697de5d-8787-484b-bb74-73393f1ab350)
+
+
 ## 🌟 Características
 
 - **Diseño Moderno**: Interfaz limpia con combinación de colores cálidos (amarillo, verde, beige)
