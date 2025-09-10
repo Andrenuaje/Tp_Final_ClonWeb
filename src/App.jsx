@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Estadisticas } from './Components/Estadisticas/Estadisticas'
+import { Estadistica } from './Components/Estadisticas/Estadistica'
 import { Noticias } from './Components/Noticias/Noticias'
 
 import { AboutUs } from './Components/AboutUs/AboutUs'
@@ -130,7 +130,7 @@ function App() {
   
 
       
-    <Estadisticas/>
+    <Estadistica/>
     <Noticias/>
     <AboutUs/>
     <OurTeam/>

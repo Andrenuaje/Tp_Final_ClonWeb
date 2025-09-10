@@ -1,11 +1,11 @@
-import './Estadisticas'
+import './Estadistica'
 import manocorazon from '../img/Estadisticas/manocorazon.jpg'
 import cajacorazon from '../img/Estadisticas/cajacorazon.jpg';
 import megafonocorazon from '../img/Estadisticas/megafonocorazon.jpg';
 import manopaz from '../img/Estadisticas/manopaz.jpg';
 
 
-const Estadisticas = () => {
+const Estadistica = () => {
     const stats = [
         {
             image: "/img/Estadisticas/manocorazon.jpg", 
@@ -61,4 +61,4 @@ const Estadisticas = () => {
         </section>
     );
 }
-export { Estadisticas }
+export { Estadistica }
