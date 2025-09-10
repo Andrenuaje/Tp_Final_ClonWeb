@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Estadisticas } from './Components/Estadistica/Estadisticas'
+import { Estadisticas } from './Components/Estadisticas/Estadisticas'
 import { Noticias } from './Components/Noticias/Noticias'
 
 import { AboutUs } from './Components/AboutUs/AboutUs'
