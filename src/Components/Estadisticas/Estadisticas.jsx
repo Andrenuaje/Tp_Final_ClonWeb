@@ -8,25 +8,25 @@ import manopaz from '../img/Estadisticas/manopaz.jpg';
 const Estadisticas = () => {
     const stats = [
         {
-            image: manocorazon, 
+            image: "/img/Estadisticas/manocorazon.jpg", 
             alt: "Donaciones recibidas",
             value: "985+",
             description: "Donation Received"
         },
         {
-            image: cajacorazon, 
+            image: "/img/Estadisticas/cajacorazon.jpg", 
             alt: "Dinero donado",
             value: "$10 M",
             description: "Money Donated"
         },
         {
-            image: megafonocorazon, 
+            image: "/img/Estadisticas/megafonocorazon.jpg", 
             alt: "Campañas activas",
             value: "12+",
             description: "Active Campaigns"
         },
         {
-            image: manopaz, 
+            image: "/img/Estadisticas/manopaz.jpg", 
             alt: "Caridad en el año",
             value: "$60 M",
             description: "Charity in last Year"
