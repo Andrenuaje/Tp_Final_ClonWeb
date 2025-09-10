@@ -37,7 +37,7 @@ function App() {
         <nav className="flex justify-between items-center p-6 max-w-7xl mx-auto font-bogart">
           <div className="flex items-center">
             <img 
-              src="../img/logo.png"
+              src="../src/img/Logo/logo.png"
               alt="Ta: Logo" 
               className="h-20 w-auto"
             />
