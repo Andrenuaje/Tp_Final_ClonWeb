@@ -1,5 +1,5 @@
 import './Estadisticas'
-import manocorazon from '../img/Estadisticas/manocorazon.jpg'
+import manocorazon from '../src/img/Estadisticas/manocorazon.jpg'
 import cajacorazon from '../src/img/Estadisticas/cajacorazon.jpg';
 import megafonocorazon from '../src/img/Estadisticas/megafonocorazon.jpg';
 import manopaz from '../src/img/Estadisticas/manopaz.jpg';
