@@ -4,25 +4,25 @@ import './Estadistica'
 const Estadistica = () => {
     const stats = [
         {
-            image: "/public/img/Estadisticas/manocorazon.jpg", 
+            image: "/img/manocorazon.jpg", 
             alt: "Donaciones recibidas",
             value: "985+",
             description: "Donation Received"
         },
         {
-            image: "/public/img/Estadisticas/cajacorazon.jpg", 
+            image: "/img/cajacorazon.jpg", 
             alt: "Dinero donado",
             value: "$10 M",
             description: "Money Donated"
         },
         {
-            image: "/public/img/Estadisticas/megafonocorazon.jpg", 
+            image: "/img/megafonocorazon.jpg", 
             alt: "Campañas activas",
             value: "12+",
             description: "Active Campaigns"
         },
         {
-            image: "/public/img/Estadisticas/manopaz.jpg", 
+            image: "/img/manopaz.jpg", 
             alt: "Caridad en el año",
             value: "$60 M",
             description: "Charity in last Year"

@@ -6,25 +6,25 @@ const teamMembers = [
     {
         name: 'Lily gomez',
         role: 'Founder',
-        image:"/public/img/OurTeam/Lyli.png" ,
+        image:"/img/Lyli.png" ,
        
     },
     {
         name: 'Dm Lincoln',
         role: 'Co-Founder',
-        image: "/public/img/OurTeam/DmLincon.png",
+        image: "/img/DmLincon.png",
        
     },
     {
         name: 'Serena Mei',
         role: 'Manager',
-        image:"/public/img/OurTeam/Serena.png" ,
+        image:"/img/Serena.png" ,
        
     },
     {
         name: 'Abdel Latif',
         role: 'Supervisor',
-        image:"/public/img/OurTeam/AbdelL.png",
+        image:"/img/AbdelL.png",
        
     },
 ];

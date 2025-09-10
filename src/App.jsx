@@ -41,7 +41,7 @@ function App() {
         <nav className="flex justify-between items-center p-6 max-w-7xl mx-auto font-bogart">
           <div className="flex items-center">
             <img 
-              src="/public/img/Logo/logo.png"
+              src="/img/logo.png"
               alt="Ta: Logo" 
               className="h-20 w-auto"
             />
@@ -116,7 +116,7 @@ function App() {
           <div className="flex-1 relative pr-12 ">
             <div className="relative  ">
               <img 
-                src="/public/img/Logo/imagen1.png"
+                src="/img/PadreyHijo.jpg"
                 alt=""
                 className=" w-full  object-cover h-full   "
               />
