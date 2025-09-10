@@ -74,10 +74,7 @@ function App() {
               <button className="bg-[#00715D] hover:bg-green-700 text-white px-8 py-3  font-semibold transition-colors font-bogart">
                 Donate Now
               </button>
-             
              <CurvedArrow/>
-              
-              
             <button className='cursor-pointer flex items-center'>
               <div className="relative">
                 <div className="w-16 h-16 bg-[#FDD65B] rounded-full flex items-center justify-center cursor-pointer hover:bg-yellow-200 transition-colors">
