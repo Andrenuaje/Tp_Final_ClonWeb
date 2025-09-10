@@ -10,6 +10,7 @@ import { Footer2 } from './Components/Footer2/Footer2'
 import { Footer } from './Components/Footer/Footer'
 import { OurTeam } from './Components/OurTeam/OurTeam'
 import CurvedArrow from './Components/Linea'
+import logo from '../src/img/Logo/logo.png';
 
 
 
@@ -37,7 +38,7 @@ function App() {
         <nav className="flex justify-between items-center p-6 max-w-7xl mx-auto font-bogart">
           <div className="flex items-center">
             <img 
-              src="../src/img/Logo/logo.png"
+              src={logo}
               alt="Ta: Logo" 
               className="h-20 w-auto"
             />
