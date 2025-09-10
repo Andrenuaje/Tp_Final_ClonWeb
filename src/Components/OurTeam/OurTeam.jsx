@@ -24,7 +24,7 @@ const teamMembers = [
     {
         name: 'Abdel Latif',
         role: 'Supervisor',
-        image:"/public/img/OurTeam/AbdelL.png" ,
+        image:"/public/img/OurTeam/AbdelL.png",
        
     },
 ];
